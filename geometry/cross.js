@@ -1,6 +1,8 @@
 /**
  * 判断两条线段是否相交
- * eg: [[1,0],[0,1]], [[2,1],[0,0]]
+ * @param {Array} [[1,0],[0,1]]
+ * @param {Array} [[2,1],[0,0]]
+ * @returns {Boolean}
  */
 
 function isCross ([m1, m2], [n1, n2]) {
@@ -19,6 +21,6 @@ function isCross ([m1, m2], [n1, n2]) {
         }
         return false
     } catch (e) {
-        console.error('数据格式有误')
+        console.error('参数格式有误')
     }
 }
